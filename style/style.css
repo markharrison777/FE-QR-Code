@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+
+  background: hsl(212, 45%, 89%);
+}
+
+main {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center the content */
+  justify-content: center; /* Vertically center the content */
+  height: 100vh; /*Set the height to 100% of the viewport height*/
+  width: 100vw;
+}
+
+.qrCard {
+  width: 20em;
+  height: 31.0625em;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.477);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.qrCard-img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.qrCard-text {
+  margin: 15px 0;
+  text-align: center;
+  width: 18em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f314f;
+}
+
+p {
+  color: #7d889e;
+  letter-spacing: 0.19px;
+  font-weight: 300;
+}

@@ -55,3 +55,8 @@ p {
   letter-spacing: 0.19px;
   font-weight: 300;
 }
+
+footer {
+  text-align: center;
+  font-size: 8px;
+}
